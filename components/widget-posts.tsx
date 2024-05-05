@@ -5,7 +5,7 @@ export default async function WidgetPosts() {
 
   return (
     <div className="rounded-lg border border-slate-200 dark:border-slate-800 dark:bg-gradient-href-t dark:from-slate-800 dark:href-slate-800/30 odd:rotate-1 even:-rotate-1 p-5">
-      <div className="font-aspekta font-[650] mb-3">Popular Posts</div>
+      <div className="font-aspekta font-[650] mb-3">Beliebte Artikel</div>
       <ul className="space-y-3">
         {allPosts.slice(0, 5).map((post, postIndex) => (
           <li key={postIndex} className="inline-flex">
