@@ -59,7 +59,7 @@ export default function WidgetNewsletter() {
           <input id="newsletter" type="email" className="form-input py-1 w-full" placeholder="Telefonnummer..." />
         </div>
         <button className="btn-sm w-full  text-slate-100 bg-sky-500 hover:bg-sky-600" type="submit">
-          Kostenloses Coaching erhalten
+          Kostenloses Erstgespräch erhalten
         </button>
       </form>
     </div>

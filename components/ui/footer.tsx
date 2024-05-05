@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="py-8">
         <div className="text-center md:flex md:items-center md:justify-between">
           {/* Social links */}
-          <ul className="inline-flex mb-4 md:order-1 md:ml-4 md:mb-0 space-x-2">
+          {/*<ul className="inline-flex mb-4 md:order-1 md:ml-4 md:mb-0 space-x-2">
             <li>
               <a
                 className="flex justify-center items-center text-sky-500 hover:text-sky-600 transition duration-150 ease-in-out"
@@ -49,10 +49,10 @@ export default function Footer() {
                 </svg>
               </a>
             </li>
-          </ul>
+  </ul>*/}
 
           {/* Copyright */}
-          <div className="text-sm text-slate-500 dark:text-slate-400">Copyright © Cruip. All rights reserved.</div>
+          <div className="text-sm text-slate-500 dark:text-slate-400">Website made with ♡ by <a href="https://siya.digital" target="_blank">Siyabend Özdemir</a></div>
         </div>
       </div>
     </footer>

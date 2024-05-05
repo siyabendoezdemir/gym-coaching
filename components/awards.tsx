@@ -1,7 +1,7 @@
 export default function Awards() {
   return (
     <div className="space-y-8">
-      <h2 className="h3 font-aspekta text-slate-800 dark:text-slate-100">Awards</h2>
+      <h2 className="h3 font-aspekta text-slate-800 dark:text-slate-100">Preise</h2>
       <ul className="space-y-8">
         {/* Item */}
         <li className="relative group">
@@ -13,9 +13,9 @@ export default function Awards() {
             </div>
             <div className="pl-20 space-y-1">
               <div className="text-xs text-slate-500 uppercase">2023</div>
-              <div className="font-aspekta font-[650] text-slate-800 dark:text-slate-100">Best Creative Tech Dev</div>
-              <div className="text-sm font-medium text-slate-800 dark:text-slate-100">Business Insider</div>
-              <div className="text-sm text-slate-500 dark:text-slate-400">This recognition not only affirmed my abilities as a web developer but also highlighted my unique approach to problem-solving.</div>
+              <div className="font-aspekta font-[650] text-slate-800 dark:text-slate-100">IFBB</div>
+              <div className="text-sm font-medium text-slate-800 dark:text-slate-100">Pro card</div>
+              <div className="text-sm text-slate-500 dark:text-slate-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt nec nec libero et.</div>
             </div>
           </div>
         </li>
@@ -28,13 +28,14 @@ export default function Awards() {
               </svg>
             </div>
             <div className="pl-20 space-y-1">
-              <div className="text-xs text-slate-500 uppercase">2022</div>
-              <div className="font-aspekta font-[650] text-slate-800 dark:text-slate-100">Best Creative Product Dev</div>
-              <div className="text-sm font-medium text-slate-800 dark:text-slate-100">Bloomerg Tech</div>
-              <div className="text-sm text-slate-500 dark:text-slate-400">This recognition not only affirmed my abilities as a web developer but also highlighted my unique approach to problem-solving.</div>
+              <div className="text-xs text-slate-500 uppercase">2023</div>
+              <div className="font-aspekta font-[650] text-slate-800 dark:text-slate-100">IFBB</div>
+              <div className="text-sm font-medium text-slate-800 dark:text-slate-100">Pro card</div>
+              <div className="text-sm text-slate-500 dark:text-slate-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt nec nec libero et.</div>
             </div>
           </div>
         </li>
+
       </ul>
     </div>
   )

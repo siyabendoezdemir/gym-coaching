@@ -6,7 +6,7 @@ import EducationIcon02 from '@/public/images/education-icon-02.svg'
 export default function Education() {
   return (
     <div className="space-y-8">
-      <h2 className="h3 font-aspekta text-slate-800 dark:text-slate-100">Education</h2>
+      <h2 className="h3 font-aspekta text-slate-800 dark:text-slate-100">Ausbildung</h2>
       <ul className="space-y-8">
         {/* Item */}
         <li className="relative group">

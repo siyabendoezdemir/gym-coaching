@@ -6,15 +6,15 @@ import Reference02 from '@/public/images/reference-02.jpg'
 export default function WidgetReferences() {
   return (
     <div className="rounded-lg border border-slate-200 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 odd:rotate-1 even:-rotate-1 p-5">
-      <div className="font-aspekta font-[650] mb-3">References</div>
+      <div className="font-aspekta font-[650] mb-3">Referenzen</div>
       <ul className="space-y-3">
         <li>
           <a className="flex justify-between items-center space-x-2 group" href="#0">
             <div className="grow flex items-center space-x-3 truncate">
               <Image className="rounded-full" src={Reference01} width={32} height={32} alt="Mr. Mark Smularkov" />
                 <div className="truncate">
-                  <div className="font-aspekta font-[650] text-sm truncate mb-1">Mr. Mark Smularkov</div>
-                  <div className="text-xs text-slate-500 dark:text-slate-400">CEO, Acme Tech.</div>
+                  <div className="font-aspekta font-[650] text-sm truncate mb-1">Tom Platz</div>
+                  <div className="text-xs text-slate-500 dark:text-slate-400">Bodybuilder</div>
                 </div>
             </div>
             <div className="shrink-0 text-sky-500">
@@ -29,8 +29,8 @@ export default function WidgetReferences() {
             <div className="grow flex items-center space-x-3 truncate">
               <Image className="rounded-full" src={Reference02} width={32} height={32} alt="Jame Kulls" />
                 <div className="truncate">
-                  <div className="font-aspekta font-[650] text-sm truncate mb-1">Jame Kulls</div>
-                  <div className="text-xs text-slate-500 dark:text-slate-400">CEO, Money Maker</div>
+                  <div className="font-aspekta font-[650] text-sm truncate mb-1">Larry Wheels</div>
+                  <div className="text-xs text-slate-500 dark:text-slate-400">Strongman</div>
                 </div>
             </div>
             <div className="shrink-0 text-sky-500">

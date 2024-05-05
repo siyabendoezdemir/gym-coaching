@@ -7,8 +7,8 @@ import WidgetLanguages from '@/components/widget-languages'
 import WidgetReferences from '@/components/widget-references'
 
 export const metadata = {
-  title: 'Resume - DevSpace',
-  description: 'Page description',
+  title: 'Resume - Niclas Martin',
+  description: 'Mein Lebenslauf und meine bisherigen Erfahrungen. Hier findest du alle Informationen zu meiner Ausbildung, meinen bisherigen Jobs und meinen Empfehlungen.',
 }
 
 export default function Resume() {
@@ -21,11 +21,11 @@ export default function Resume() {
 
           <section>
             {/* Page title */}
-            <h1 className="h1 font-aspekta mb-12">My resume</h1>
+            <h1 className="h1 font-aspekta mb-12">Meine Erfahrung</h1>
             {/* Page content */}
             <div className="text-slate-500 dark:text-slate-400 space-y-12">
 
-              <Education />
+              {/* <Education /> */}
               <Experience />
               <Awards />
               <Recommendations />
@@ -40,7 +40,7 @@ export default function Resume() {
       <aside className="md:w-[240px] lg:w-[300px] shrink-0">
         <div className="space-y-6">
 
-          <WidgetSkills />
+          {/* <WidgetSkills /> */}
           <WidgetLanguages />
           <WidgetReferences />
 

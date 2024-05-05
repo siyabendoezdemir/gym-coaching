@@ -10,8 +10,8 @@ import Testimonial01 from '@/public/images/testimonial-01.jpg'
 import Testimonial02 from '@/public/images/testimonial-02.jpg'
 
 export const metadata = {
-  title: 'About - DevSpace',
-  description: 'Page description',
+  title: 'Coaching - Niclas Martin',
+  description: 'Personal coaching auf einem neuen Level. Ob du dich beruflich oder privat weiterentwickeln möchtest, ich helfe dir dabei. Vereinbare jetzt ein kostenloses Erstgespräch.',
 }
 
 export default function Subscribe() {
@@ -23,12 +23,11 @@ export default function Subscribe() {
           <div className="space-y-10">
             <section>
               {/* Page title */}
-              <h1 className="h1 font-aspekta mb-5">Never miss an update ✨</h1>
+              <h1 className="h1 font-aspekta mb-5">Sicher dir ein kostenloses Erstgespräch ✨</h1>
               {/* Page content */}
               <div className="text-slate-500 dark:text-slate-400 space-y-8">
                 <p className="text-lg">
-                  This newsletter is written by Mark Ivings, who previously worked at Google, Medium, Vimeo, and Qonto. Here is what to expect
-                  by subscribing:
+                  Ich helfe dir dabei, deine Ziele zu erreichen. Ob du dich beruflich oder privat weiterentwickeln möchtest, ich unterstütze dich dabei. Vereinbare jetzt ein kostenloses Erstgespräch.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start">
@@ -39,7 +38,7 @@ export default function Subscribe() {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Big tech and high-growth startups, from the inside.</span>
+                    <span>Persönliches Experten Coaching</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -49,7 +48,7 @@ export default function Subscribe() {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Actionable advice for engineering managers, software engineers and tech workers.</span>
+                    <span>Individueller Trainingsplan für deine Ziele</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -59,17 +58,7 @@ export default function Subscribe() {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>A pulse on the tech market and scoop worth knowing.</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg
-                      className="w-3 h-3 fill-current text-sky-500 mr-3 mt-1.5 shrink-0"
-                      viewBox="0 0 12 12"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>An independent viewpoint.</span>
+                    <span>Ernährungsplan angepasst an deine Ziele</span>
                   </li>
                 </ul>
                 <div>
@@ -77,13 +66,13 @@ export default function Subscribe() {
                   <form>
                     <div className="flex flex-col md:flex-row justify-center max-w-xs mx-auto md:max-w-md md:mx-0">
                       <input
-                        type="email"
+                        type="tel"
                         className="form-input w-full mb-2 md:mb-0 md:mr-2"
-                        placeholder="Your email"
-                        aria-label="Your email\u2026"
+                        placeholder="Telefonnummer"
+                        aria-label="Telefonnummer\u2026"
                       />
                       <button className="btn text-white bg-sky-500 hover:bg-sky-600">
-                        Subscribe
+                        Anmelden
                       </button>
                     </div>
                     {/* Success message */}
@@ -127,7 +116,7 @@ export default function Subscribe() {
                         alt="Avatar 05"
                       />
                     </div>
-                    <div className="text-sm text-slate-500 ml-3">Join 100K+ developers.</div>
+                    <div className="text-sm text-slate-500 ml-3">Werde teil von 100+ zufriedenen Kunden</div>
                   </div>
                 </div>
               </div>
@@ -143,10 +132,9 @@ export default function Subscribe() {
                   <div className="flex flex-col h-full">
                     <div className="grow">
                       <Image className="rounded-full mb-2" src={Testimonial01} width={40} height={40} alt="Testimonial 01" />
-                      <div className="text-lg font-aspekta font-[650] mb-1">“ Incredible Value “</div>
+                      <div className="text-lg font-aspekta font-[650] mb-1">“ Ich bin Gesünder als je zuvor “</div>
                       <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">
-                        I was able to quickly master the skills necessary to advance my career. I'm grateful for the resources Mark provided
-                        and would recommend him to anyone.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                       </p>
                     </div>
                     <div className="text-xs font-aspekta font-[650] text-sky-500">— Mary Coyle</div>
@@ -159,10 +147,9 @@ export default function Subscribe() {
                   <div className="flex flex-col h-full">
                     <div className="grow">
                       <Image className="rounded-full mb-2" src={Testimonial02} width={40} height={40} alt="Testimonial 02" />
-                      <div className="text-lg font-aspekta font-[650] mb-1">“ The Best Newsletter “</div>
+                      <div className="text-lg font-aspekta font-[650] mb-1">“ Ich bin Gesünder als je zuvor “</div>
                       <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">
-                        I was able to quickly master the skills necessary to advance my career. I'm grateful for the resources Mark provided
-                        and would recommend him to anyone.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                       </p>
                     </div>
                     <div className="text-xs font-aspekta font-[650] text-sky-500">— Daniel Burka</div>
@@ -178,8 +165,8 @@ export default function Subscribe() {
       <aside className="md:w-[240px] lg:w-[300px] shrink-0">
         <div className="space-y-6">
 
-          <WidgetSponsor />
-          <WidgetBook />
+          {/*<WidgetSponsor />
+          <WidgetBook />*/}
 
         </div>
       </aside>
