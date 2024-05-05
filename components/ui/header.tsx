@@ -7,7 +7,7 @@ export default function Header() {
       <div className="flex items-center justify-between h-16 before:block">
         <div className="grow flex justify-end space-x-4">
           {/* Search form */}
-          <form className="w-full max-w-[276px]">
+          {/*<form className="w-full max-w-[276px]">
             <div className="flex flex-wrap">
               <div className="w-full">
                 <label className="block text-sm sr-only" htmlFor="search">
@@ -26,7 +26,7 @@ export default function Header() {
                 </div>
               </div>
             </div>
-          </form>
+  </form>*/}
 
           {/* Light switch */}
           <ThemeToggle />

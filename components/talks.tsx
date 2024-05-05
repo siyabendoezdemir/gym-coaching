@@ -5,7 +5,7 @@ import Talk02 from '@/public/images/popular-post-02.jpg'
 export default function Talks() {
   return (
     <section>
-      <h2 className="font-aspekta text-xl font-[650] mb-5">Popular Talks</h2>
+      <h2 className="font-aspekta text-xl font-[650] mb-5">Videos</h2>
 
       {/* Cards */}
       <div className="grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-5">
@@ -21,7 +21,7 @@ export default function Talks() {
             alt="Popular post 01"
           />
           <div className="h-full relative flex flex-col items-start justify-between before:mt-auto before:flex-1 p-5">
-            <div className="flex-1 flex items-center text-lg font-aspekta text-white font-[650]">The Third Age of JavaScript</div>
+            <div className="flex-1 flex items-center text-lg font-aspekta text-white font-[650]">Wieso die meisten nach 1 Jahr im Gym aufgeben</div>
             <div className="flex-1 w-full flex justify-end items-end">
               <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41">
                 <circle className="fill-white" cx="20" cy="20" r="20" fillOpacity=".88" />
@@ -45,7 +45,7 @@ export default function Talks() {
             alt="Popular post 02"
           />
           <div className="h-full relative flex flex-col items-start justify-between before:mt-auto before:flex-1 p-5">
-            <div className="flex-1 flex items-center text-lg font-aspekta text-white font-[650]">Building in Public Strategy</div>
+            <div className="flex-1 flex items-center text-lg font-aspekta text-white font-[650]">Wie ernähre ich mich richtig?</div>
             <div className="flex-1 w-full flex justify-end items-end">
               <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41">
                 <circle className="fill-white" cx="20" cy="20" r="20" fillOpacity=".88" />

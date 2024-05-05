@@ -6,10 +6,11 @@ import FeaturedProjects from '@/components/featured-projects'
 import WidgetNewsletter from '@/components/widget-newsletter'
 import WidgetSponsor from '@/components/widget-sponsor'
 import WidgetBook from '@/components/widget-book'
+import Footer from '@/components/ui/footer'
 
 export const metadata = {
-  title: 'Home - DevSpace',
-  description: 'Page description',
+  title: 'Home - Niclas Martin',
+  description: 'Personal Coaching auf einem neuen Level. Ob du dich beruflich oder privat weiterentwickeln möchtest, ich helfe dir dabei. Vereinbare jetzt ein kostenloses Erstgespräch.',
 }
 
 export default async function Home() {
@@ -17,7 +18,7 @@ export default async function Home() {
   // Sort posts by date
   allPosts.sort((a, b) => {
     return (new Date(a.publishedAt) > new Date(b.publishedAt)) ? -1 : 1
-  }) 
+  })
 
   return (
     <>
@@ -31,10 +32,10 @@ export default async function Home() {
             <div className="space-y-10">
 
               <section>
-                <h2 className="font-aspekta text-xl font-[650] mb-3">Latest Articles</h2>
+                <h2 className="font-aspekta text-xl font-[650] mb-3">Neueste Artikel</h2>
 
                 {/* Filters */}
-                <ul className="flex flex-wrap text-sm border-b border-slate-100 dark:border-slate-800">
+                {/* <ul className="flex flex-wrap text-sm border-b border-slate-100 dark:border-slate-800">
                   <li className="px-3 -mb-px">
                     <a className="block py-3 font-medium text-slate-800 dark:text-slate-100 border-b-2 border-sky-500" href="#0">
                       Coding
@@ -55,18 +56,17 @@ export default async function Home() {
                       Indie Hacking
                     </a>
                   </li>
-                </ul>
+  </ul>*/}
 
                 {/* Articles list */}
                 <div>
                   {allPosts.map((post, postIndex) => (
-                      <PostItem key={postIndex} {...post} />
+                    <PostItem key={postIndex} {...post} />
                   ))}
                 </div>
               </section>
 
               <Talks />
-              <FeaturedProjects />
 
             </div>
           </div>
@@ -77,13 +77,13 @@ export default async function Home() {
           <div className="space-y-6">
 
             <WidgetNewsletter />
-            <WidgetSponsor />
-            <WidgetBook />
 
           </div>
         </aside>
 
+
       </div>
+      <Footer />
     </>
   )
 }
